@@ -1,0 +1,31 @@
+{
+  "name": "rest-email-proxy",
+  "version": "0.0.0",
+  "description": "Receive REST calls and send to email address.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredLackey/rest-email-proxy.git"
+  },
+  "keywords": [
+    "json",
+    "rest",
+    "email",
+    "smtp",
+    "proxy"
+  ],
+  "author": "Fred Lackey <fred.lackey@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/FredLackey/rest-email-proxy/issues"
+  },
+  "homepage": "https://github.com/FredLackey/rest-email-proxy#readme",
+  "dependencies": {
+    "cleaner-node": "^0.4.12",
+    "express": "^4.16.4",
+    "nodemailer": "^5.1.1"
+  }
+}
